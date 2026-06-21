@@ -1,0 +1,20 @@
+
+Phrase Source : i am happy .
+Réf. Attendue : je suis heureux .
+- Greedy       : suis toujours .      | BLEU: 13.1%
+- Beam Search  : a peur .             | BLEU: 9.3%
+
+Phrase Source : he is strong .
+Réf. Attendue : il est fort .
+- Greedy       : m toujours . .       | BLEU: 9.1%
+- Beam Search  : m amuse .            | BLEU: 9.3%
+
+Phrase Source : she is beautiful .
+Réf. Attendue : elle est belle .
+- Greedy       : un peu . .           | BLEU: 9.1%
+- Beam Search  : un des devoirs .     | BLEU: 9.1%
+
+Phrase Source : they are tired .
+Réf. Attendue : ils sont fatigues .
+- Greedy       : es un tre .          | BLEU: 9.1%
+- Beam Search  : es un tre .          | BLEU: 9.1%
